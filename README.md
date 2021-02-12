@@ -1,6 +1,8 @@
 # bias_lighting
 Bias lighting for monitor backlighting. Uses a python script to sample the screen and generate RGB values, which are sent via USB to an arduino which controls an addressable LED strip.
 
+You can see a demo of it here: https://youtu.be/FVjuAfjO09M
+
 ## How to use this software
 Get yourself some WS2812B leds (other addressables will work but you'll have to tweak the arduino code). These are an easy 3 pin connection - pwr/gnd/data. No sweat.
 
