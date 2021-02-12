@@ -8,11 +8,13 @@ Get yourself some WS2812B leds (other addressables will work but you'll have to 
 
 Put them on the back of your monitor facing the wall. Don't worry about finding something to diffuse them - they'll diffuse on their own since they're pointed at the wall. 
 
-Upload the `ambiled.ino` script to your arduino.
+Upload the `ambiled.ino` script to your arduino. Keep your arduino plugged into your computer via usb.
 
-Run the `ambiled.py` script on your computer.
+Run the `ambiled.py` script on your computer.*** 
 
 Done! It's that easy.
+
+*** It's likely that the arduino will be the only COM open. If this the case, then the python script will automatically use your arduino. If, however, you have multiple COMs open, you will be asked which to use. If you're not sure which port is your arduino, just open your arduino ide and check which COM port your arduino is attached to, then type it into the python window and press enter.
 
 ## arduino code
 ### `ambiled.ino`
