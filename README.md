@@ -1,5 +1,5 @@
 # bias_lighting
-Bias lighting for monitor backlighting. Uses a python script to sample the screen and generate RGB values, which are sent via USB to an arduino which controls an addressable LED strip.
+Bias lighting for monitor backlighting. Uses a python script to sample the border of the screen and generate average RGB values which are serialized as hex colors and sent via USB to an arduino which in turn sends the colors to an addressable LED strip.
 
 You can see a demo of it here: https://youtu.be/FVjuAfjO09M
 
@@ -22,7 +22,7 @@ This is a simple script that initializes the pixel strip and reads the rgb data 
 Lines 24 to 27 are a sneaky way to convert from a hex value to r, g, and b values. Idk how it works, I found it on stack exchange.  ¯\_(ツ)_/¯
 
 ### `neopixel_test.ino`
-I included this to show all the ridiculous testing I did in my development and debug phase to get the pixel strip working how I wanted. 
+I included this to show all the testing I did in my development and debug phase to get the pixel strip working how I wanted. 
 
 You don't need it. 
 
